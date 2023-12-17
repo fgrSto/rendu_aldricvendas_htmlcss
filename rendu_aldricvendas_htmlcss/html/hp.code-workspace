@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "hp",
+		"path": "../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "rendu"
+  }
+}

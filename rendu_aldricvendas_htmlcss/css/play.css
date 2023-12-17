@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.navBar {
+  background-color: rgb(41, 25, 3);
+  display: flex;
+}
+
+#navbar {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  font-size: 2rem;
+  color: white;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1000px) {
+  .background {
+    height: 500px;
+  }
+}
+
+.boosters {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.background {
+  background-image: url("https://t3.ftcdn.net/jpg/03/16/88/54/360_F_316885456_a9wbDmim8eFgrT81olS9vc32Pglf0kuR.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100%;
+}
